@@ -4,11 +4,11 @@ import gildedRose.ItemStrategyFactory;
 
 public class Item{
 
-    public String name;
+    private String name;
 
-    public int sellIn;
+    private int sellIn;
 
-    public int quality;
+    private int quality;
 
     private ItemStrategy itemStrategy;
 
